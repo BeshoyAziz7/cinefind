@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">CineFind app icon</title>
+  <desc id="desc">A pure black rounded-square favicon with a cinematic white C aperture fused with a crimson red play triangle.</desc>
+
+  <defs>
+    <filter id="redGlow" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feFlood flood-color="#e11d48" flood-opacity="0.45"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <symbol id="cinefind-primary-mark" viewBox="0 0 64 64">
+      <rect width="64" height="64" rx="14" fill="#000000"/>
+      <path d="M43.7 17.25C40.52 14.73 36.46 13.25 32 13.25C21.64 13.25 13.25 21.64 13.25 32C13.25 42.36 21.64 50.75 32 50.75C36.46 50.75 40.52 49.27 43.7 46.75" fill="none" stroke="#f8fafc" stroke-width="8.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M27.25 19.1L49.25 32L27.25 44.9Z" fill="#e11d48" filter="url(#redGlow)"/>
+    </symbol>
+
+    <symbol id="cinefind-monochrome-glyph" viewBox="0 0 64 64">
+      <path d="M43.7 17.25C40.52 14.73 36.46 13.25 32 13.25C21.64 13.25 13.25 21.64 13.25 32C13.25 42.36 21.64 50.75 32 50.75C36.46 50.75 40.52 49.27 43.7 46.75" fill="none" stroke="#ffffff" stroke-width="8.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M27.25 19.1L49.25 32L27.25 44.9Z" fill="#ffffff"/>
+    </symbol>
+
+    <symbol id="cinefind-maskable-pwa-mark" viewBox="0 0 64 64">
+      <rect width="64" height="64" rx="14" fill="#000000"/>
+      <path d="M42.4 18.7C39.48 16.5 35.89 15.25 32 15.25C22.75 15.25 15.25 22.75 15.25 32C15.25 41.25 22.75 48.75 32 48.75C35.89 48.75 39.48 47.5 42.4 45.3" fill="none" stroke="#f8fafc" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M28.25 20.85L47.25 32L28.25 43.15Z" fill="#e11d48" filter="url(#redGlow)"/>
+    </symbol>
+
+    <symbol id="cinefind-wordmark" viewBox="0 0 256 64">
+      <text x="0" y="48" font-family="Bebas Neue, Impact, Haettenschweiler, 'Arial Narrow', sans-serif" font-size="52" font-weight="700" letter-spacing="1.5">
+        <tspan fill="#f8fafc">Cine</tspan><tspan fill="#e11d48">Find</tspan>
+      </text>
+    </symbol>
+  </defs>
+
+  <use href="#cinefind-primary-mark"/>
+</svg>
